@@ -17,13 +17,13 @@
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:description" content="{{ .Site.Params.description }}" />
   <meta property="og:url" content="{{ .Permalink }}" />
-  <meta property="og:image" content="{{ .Site.BaseURL }}images/og-image.png" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/Ahbab-Travel-And-Tours/Ahbab-Travel-And-Tours.github.io/refs/heads/main/static/images/og-image.png" />
   <meta property="og:type" content="website" />
   <!-- Twitter Card Metadata -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ .Title }}">
   <meta name="twitter:description" content="{{ .Site.Params.description }}">
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-image.png">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/Ahbab-Travel-And-Tours/Ahbab-Travel-And-Tours.github.io/refs/heads/main/static/images/og-image.png">
 
 
   {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env
