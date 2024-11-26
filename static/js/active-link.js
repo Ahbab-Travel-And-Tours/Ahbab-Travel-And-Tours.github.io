@@ -3,8 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentPath = window.location.pathname;
 
   navLinks.forEach((link) => {
+    // Normalize the href attribute to an absolute path
+    const linkPath = new URL(link.getAttribute("href"), window.location.origin).pathname;
+
     // Set active class based on current path
-    if (link.getAttribute("href") === currentPath) {
+    if (linkPath === currentPath) {
       link.parentElement.classList.add("active");
     }
 
@@ -22,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Remove 'active' class when hover ends
     link.addEventListener("mouseleave", function () {
       // Only remove if it's not the current active path
-      if (this.getAttribute("href") !== currentPath) {
+      if (new URL(this.getAttribute("href"), window.location.origin).pathname !== currentPath) {
         this.parentElement.classList.remove("active");
       }
     });
