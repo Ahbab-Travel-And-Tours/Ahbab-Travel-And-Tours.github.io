@@ -1,0 +1,88 @@
+# data/cards.yaml
+- title: "Hajj Package - Premium"
+  description: "A luxurious Hajj experience with private tours, top-tier amenities, and personalized services."
+  price: "$10,000"
+  duration: "20 days"
+  highlights:
+    - "First-class airfare"
+    - "5-star accommodation close to Haram"
+    - "Private guide and exclusive tours"
+  link: "/hajj-premium"
+  category: "Hajj"
+
+- title: "Hajj Package - Economy"
+  description: "Budget-friendly Hajj package with essential services for a smooth pilgrimage."
+  price: "$3,500"
+  duration: "15 days"
+  highlights:
+    - "Economy airfare"
+    - "3-star shared accommodation"
+    - "Group transportation"
+  link: "/hajj-economy"
+  category: "Hajj"
+
+- title: "Umrah Package - Family"
+  description: "Designed for families with special accommodations and services for children."
+  price: "$3,000"
+  duration: "12 days"
+  highlights:
+    - "Airfare and family-sized rooms"
+    - "Special child-friendly activities"
+    - "Family assistance service"
+  link: "/umrah-family"
+  category: "Umrah"
+
+- title: "Umrah Package - Youth"
+  description: "An adventurous and affordable Umrah package, perfect for young travelers."
+  price: "$1,500"
+  duration: "8 days"
+  highlights:
+    - "Economy airfare"
+    - "Hostel-style accommodation"
+    - "Daily group activities and tours"
+  link: "/umrah-youth"
+  category: "Umrah"
+
+- title: "Hajj Package - VIP Elite"
+  description: "An exclusive VIP Hajj experience with premium accommodations and private services."
+  price: "$15,000"
+  duration: "18 days"
+  highlights:
+    - "Private jets for flights"
+    - "Luxury suites near Haram"
+    - "Personal guide and chauffeur"
+  link: "/hajj-vip-elite"
+  category: "Hajj"
+
+- title: "Umrah Package - Business Class"
+  description: "Umrah package for business travelers, combining worship with comfortable business amenities."
+  price: "$4,000"
+  duration: "10 days"
+  highlights:
+    - "Business class airfare"
+    - "4-star hotel with workspaces"
+    - "Flexible schedule for professionals"
+  link: "/umrah-business-class"
+  category: "Umrah"
+
+- title: "Hajj Package - Basic"
+  description: "No-frills, affordable Hajj package for those seeking simplicity and affordability."
+  price: "$2,000"
+  duration: "14 days"
+  highlights:
+    - "Basic accommodation"
+    - "Shared group transport"
+    - "Group meals and facilities"
+  link: "/hajj-basic"
+  category: "Hajj"
+
+- title: "Umrah Package - Luxury Experience"
+  description: "A premium Umrah experience with luxury accommodations and top-tier services."
+  price: "$5,500"
+  duration: "12 days"
+  highlights:
+    - "First-class flights"
+    - "5-star hotel accommodation"
+    - "Private guide and VIP services"
+  link: "/umrah-luxury"
+  category: "Umrah"

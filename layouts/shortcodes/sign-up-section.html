@@ -1,0 +1,13 @@
+<section class="section section--sign-up">
+  <div class="section__title">
+    <h3 class="section__header">
+      {{ .Get "title" | default "The best day to join us was one year ago. The second best is today!" }}
+    </h3>
+  </div>
+  <button class="btn btn--show-modal">
+    {{ .Get "button" | default "Join Today!" }}
+  </button>
+</section>
+
+
+{{/*  {{< sign-up-section title="The best day to join our community was yesterday. The second best is today!" button="Start Your Journey Now!" >}}  */}}

@@ -1,0 +1,39 @@
+<h2>Hajj Packages</h2>
+<div class="card-grid">
+  {{ range where .Site.Data.cards "category" "Hajj" }}
+    <div class="card">
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+      <p><strong>Price:</strong> {{ .price }}</p>
+      <p><strong>Duration:</strong> {{ .duration }}</p>
+      <ul>
+        {{ range .highlights }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ if .link }}
+        <a href="{{ .link }}" class="btn">Read More</a>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+
+<h2>Umrah Packages</h2>
+<div class="card-grid">
+  {{ range where .Site.Data.cards "category" "Umrah" }}
+    <div class="card">
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+      <p><strong>Price:</strong> {{ .price }}</p>
+      <p><strong>Duration:</strong> {{ .duration }}</p>
+      <ul>
+        {{ range .highlights }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ if .link }}
+        <a href="{{ .link }}" class="btn">Read More</a>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>

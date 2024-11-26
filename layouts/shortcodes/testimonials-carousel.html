@@ -1,0 +1,35 @@
+<div class="testimonial-section">
+    <div class="testimonial-header">
+        <h4 class="testimonial-title">NOT SURE YET?</h4>
+        <h2 class="testimonial-title">Hundereds Of Our Clients Have Already Performed The Holy Pilgrimage!</h2>
+    </div>
+
+    <div class="testimonial-carousel">
+        {{ range .Site.Data.testimonials }}
+        <div class="testimonial-slide">
+            <div class="testimonial-quote">
+                <p class="testimonial-title">{{ .title }}</p>
+                <p class="testimonial-message">{{ .message }}</p>
+            </div>
+            <div class="testimonial-profile">
+                <img class="testimonial-image" src="{{ .image }}" alt="{{ .name }}">
+                <div>
+                    <p class="testimonial-name">{{ .name }}</p>
+                    <p class="testimonial-location">{{ .location }}</p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+
+        <div class="carousel-controls">
+            <button class="prev-slide">❮</button>
+            <button class="next-slide">❯</button>
+        </div>
+    </div>
+
+    <div class="carousel-indicators">
+        {{ range $index, $element := .Site.Data.testimonials }}
+        <span class="indicator" data-slide="{{ $index }}"></span>
+        {{ end }}
+    </div>
+</div>

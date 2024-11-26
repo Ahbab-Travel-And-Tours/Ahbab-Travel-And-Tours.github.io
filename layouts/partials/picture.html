@@ -1,0 +1,44 @@
+{{/*
+	Usage:
+	{{ partial "picture" (dict "img" "path/to/image.jpg" "class" "optional-class" "widths" (slice 500 320)) }}
+	
+	Arguments:
+	- "img": mandatory, the base image path
+	- "class": optional, additional class for the <picture> tag
+	- "widths": optional, array of breakpoint widths for responsive images
+*/}}
+
+{{- $img := index . "img" }}
+{{- $imgName := index (split (path.Base $img) ".") 0 }}
+{{- $imgBase := path.Join (path.Dir $img) $imgName }}
+{{- $class := index . "class" | default "" }}
+{{- $widths := index . "widths" | default (slice 540 720 960 1140) }}
+{{- $ext := path.Ext $img }}
+{{- $imgAlt := index . "alt" | default "Image" }}
+
+<picture {{ if $class }}class="{{ $class }}"{{ end }}>
+    {{ if $widths }}
+        {{- $max := 0 }}
+        {{- range $widths }}
+            {{- if gt . $max }}
+                {{- $max = . }}
+            {{- end }}
+            {{/* Check if specific webp file variant exists before adding source */}}
+            {{- $variantPathWebp := printf "%s-%d.webp" $imgBase . }}
+            {{- if fileExists (printf "static/%s" $variantPathWebp) }}
+                <source srcset="{{ $variantPathWebp }}" type="image/webp" media="(max-width: {{ . }}px)">
+            {{- end }}
+        {{- end }}
+
+        {{/* Default webp source for larger screens if it exists */}}
+        {{- $imgBaseWebp := printf "%s.webp" $imgBase }}
+        {{- if fileExists (printf "static/%s" $imgBaseWebp) }}
+            <source srcset="{{ $imgBaseWebp }}" type="image/webp" media="(min-width: {{ $max }}px)">
+        {{- end }}
+    {{- end }}
+
+    {{/* Fallback for non-webp browsers */}}
+    <source srcset="{{ $img }}">
+    
+    <img src="{{ $img }}" alt="{{ $imgAlt }}" loading="lazy">
+</picture>
