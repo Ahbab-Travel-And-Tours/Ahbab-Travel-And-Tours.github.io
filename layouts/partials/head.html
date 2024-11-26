@@ -83,8 +83,12 @@
   <!-- Link to custom CSS -->
   */}}
   <link rel="stylesheet" href="/css/custom.css" />
-  <link rel="stylesheet" href="/css/carousel.css" />
-  <script src="/js/carousel.js" defer></script>
+  {{ if .IsHome }}
+    <link rel="stylesheet" href="/css/carousel.css" />
+    <script src="/js/carousel.js" defer></script>
+  {{ end }}
+
+
 
   {{/* Link To Leaflet Library */}} {{/*
   <link
