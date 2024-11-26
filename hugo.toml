@@ -1,4 +1,4 @@
-baseURL = 'https://ahbab-travel-and-tours.gitlab.io/website/'
+baseURL = 'https://ahbab-travel-and-tours.github.io/website/'
 languageCode = 'en-us'
 title = 'AHBAB TRAVEL & TOURS'
 theme = 'devfest-theme-hugo'
