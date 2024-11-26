@@ -55,9 +55,9 @@ Unacceptable behaviors include, but are not limited to:
 
 ## **6. Reporting Violations**
 If you experience or witness behavior that violates this Code of Conduct, please report it promptly. Reports can be made to:
-- **Email:** [conduct@ahbabtravel.com]
-- **Phone:** [+123-456-7890]
-- **In-person Contact:** [Contact Name or Office Location]
+- **Email:** ahbabtravels@yahoo.com
+- **Phone:** 051-2342208
+- **In-person Contact:** Oﬀice No. 03, Mezzanine Floor, Fayyaz Plaza, Blue Area, Islamabad
 
 All reports will be handled confidentially. We are committed to resolving issues promptly and fairly.
 
@@ -81,4 +81,4 @@ By participating in our community, you agree to abide by this Code of Conduct an
 ---
 
 ## **9. Commitment to Improvement**
-At **Ahbab Travel & Tours**, we are committed to continuous improvement. If you have suggestions or feedback about this Code of Conduct, please contact us at **[feedback@ahbabtravel.com]**.
+At **Ahbab Travel & Tours**, we are committed to continuous improvement. If you have suggestions or feedback about this Code of Conduct, please contact us at **ahbabtravels@yahoo.com**.
