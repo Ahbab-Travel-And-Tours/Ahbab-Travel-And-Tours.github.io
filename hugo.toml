@@ -1,13 +1,16 @@
 baseURL = 'https://ahbab-travel-and-tours.github.io/'
 languageCode = 'en-us'
 title = 'AHBAB TRAVEL & TOURS'
-theme = 'devfest-theme-hugo'
+#theme = 'devfest-theme-hugo'
+theme = 'ahbab-travels-tours-theme'
 
 
 enableEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
 
+relativeURLs = true
+canonifyURLs = true
 
 [params]
     title = "AHBAB TRAVEL & TOURS"
@@ -23,7 +26,7 @@ enableMissingTranslationPlaceholders = true
     favicon16 = "/favicon-16x16.png"
     #manifest = "/manifest.json"
     safariPinnedTab = "/safari-pinned-tab.svg"
-    #themeColor = "#673ab7"
+    themeColor = "#673ab7"
     customCSS = ["custom.css", "carousel.css"]
     
 
