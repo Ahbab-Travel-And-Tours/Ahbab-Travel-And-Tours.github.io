@@ -77,8 +77,8 @@ The processing time for an Umrah visa typically takes **7–10 business days**, 
 #### **9. How can I book a package with Ahbab Travel & Tours?**
 You can book your package by:
 1. Visiting our office in person.
-2. Contacting us via phone at **+92-XXX-XXXXXXX**.
-3. Booking online through our website or sending an inquiry to **info@ahbabtravel.com**.
+2. Contacting us via phone at **+92-364-5110066** or **051-2342208**.
+3. Booking online through our website or sending an inquiry to **ahbabtravels@yahoo.com**.
 
 ---
 
@@ -101,4 +101,4 @@ A payment plan can also be arranged for certain packages.
 
 ---
 
-If you have more questions, feel free to contact us at **info@ahbabtravel.com** or call us at **+92-XXX-XXXXXXX**.
+If you have more questions, feel free to contact us at **ahbabtravels@yahoo.com** or call us at **+92-364-5110066** or **051-2342208**.
