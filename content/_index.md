@@ -8,7 +8,7 @@ title: "Welcome to Ahbab Travel & Tours"
 ## Learn More ↓
 {{% /jumbo %}}
 
-{{% home-info what="We believe every Muslim should be given an oppertinity to perforn the pilgrimage no matter their finaincial background:Affordable Packages,24 Hour Customer Support:Support,We have partnered up with the best hotels and checked their quality:Quality Guarantee,We Provide Special disscount Offers:Discounts" class="primary" %}}
+{{% home-info what="We believe every Muslim should be given an oppertinity to perform the pilgrimage no matter their finaincial background:Affordable Packages,24 Hour Customer Support:Support,We have partnered up with the best hotels and checked their quality:Quality Guarantee,We Provide Special disscount Offers:Discounts" class="primary" %}}
 ## Abous Us: 
 + We are a travel agency based in Pakistan, We specifically deal with Hajj and Umrah.
 ## Why Us:
