@@ -1,6 +1,6 @@
 ---
-title: "Speakers"
-description: "Meet the incredible speakers who will be sharing their knowledge at our event."
+title: "Our Team"
+description: "Meet the incredible team who have worked tirelessly to build what you see."
 ---
 
 ## Featured Speakers

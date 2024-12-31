@@ -3,18 +3,22 @@ id: Mehboob
 name: Mehboob Mirza
 company: CTO
 feature: true
-photoURL: /images/speakers/mehboob.jpg
+photoURL: /images/speakers/mehboob.jpeg
 socials:
-  - icon: twitter
-    link: 'https://twitter.com/jane_doe'
-    name: '@jane_doe'
-  - icon: github
-    link: 'https://github.com/jane_doe'
-    name: jane_doe
+    - icon: whatsapp
+      link: "https://wa.me/923335176661"
+      name: "Message on WhatsApp"
+  # - icon: twitter
+  #   link: 'https://twitter.com/jane_doe'
+  #   name: '@jane_doe'
+  # - icon: github
+  #   link: 'https://github.com/jane_doe'
+  #   name: jane_doe
 shortBio: "Short bio"
 companyLogo: /images/speakers/company/company.jpg
-country: 'Chakwal, Pakistan'
+city: 'Chakwal, Pakistan'
+key: "/speakers/mehboob/"
 ---
 
-Jane Doe is passionate about programming, especially Python and JavaScript.
+Mehboob Hussain Mirza was from the start the the company. 
 

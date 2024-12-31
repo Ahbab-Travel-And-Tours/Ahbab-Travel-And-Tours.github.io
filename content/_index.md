@@ -52,8 +52,8 @@ title: "Welcome to Ahbab Travel & Tours"
 
 {{% home-location
     address="Office No. 03, Mezzanine Floor, Fayyaz Plaza, 44000, G 6/2 Blue Area, Islamabad, Islamabad Capital Territory"
-    latitude="33.718169"
-    longitude="73.073011" %}} 
+    latitude="33.7181986"
+    longitude="73.073306" %}} 
 
 ## Our Office
 
