@@ -30,5 +30,5 @@ content:
         url: mailto:ahbabtravels@yahoo.com
         newTab: false
       - name: "Whatsapp"
-        url: tel:+923645110066
+        url: https://wa.me/923645110066
         newTab: true
