@@ -68,10 +68,9 @@
     color: #000;
   }
   
-
-
-
-
+  btn-icon-only{
+    border-radius: 0%;
+  }
 
   .card-grid:first-of-type .card {
     background-image: url('/images/cards/Mecca1.webp'); /* Replace with actual path for Mecca */
