@@ -27,11 +27,14 @@ title: "Welcome to Ahbab Travel & Tours"
 {{% /album  %}}
 
 
-{{% partners categories="platinium,gold,soutien,media,communautes" %}}
+{{% partners categories="platinium,gold" %}}
 # Partners
-
-
 {{% /partners %}}
+
+<!-- {{% partners categories="platinium,gold,soutien,media,communautes" %}}
+# Partners
+{{% /partners %}} -->
+
 
 
 {{< steps title="Steps When Planning for the Pilgrimage" >}}
