@@ -21,5 +21,5 @@ city: 'Chakwal, Pakistan'
 key: "/speakers/anees/"
 ---
 
-Anees Ahmad Mirza is passionate about Hajj and Umrah, with 20+ experience. He knows Arabic anc has a big network of people in this domain.
+Anees Ahmad Mirza is passionate about Hajj and Umrah, with 20+ experience. He knows Arabic and has a big network of people in this domain.
 
