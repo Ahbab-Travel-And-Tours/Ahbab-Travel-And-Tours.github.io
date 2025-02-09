@@ -20,5 +20,5 @@ city: 'Islamabad, Pakistan'
 key: "/speakers/ibrar/"
 ---
 
-Ibrar Qurashi has ben dealing with our IT sector.
+Ibrar Qurashi has been dealing with our IT sector.
 
