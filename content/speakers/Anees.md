@@ -1,7 +1,7 @@
 ---
 id: Anees
 name: Anees Ahmad Mirza
-company: CEO
+company: CEO, Co Funder
 feature: true
 photoURL: /images/speakers/anees.jpeg
 socials:

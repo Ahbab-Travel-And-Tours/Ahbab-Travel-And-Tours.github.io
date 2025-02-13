@@ -1,7 +1,7 @@
 ---
 id: Mehboob
 name: Mehboob Mirza
-company: CTO
+company: Co Founder
 feature: true
 photoURL: /images/speakers/mehboob.jpeg
 socials:
