@@ -20,9 +20,9 @@ title: "Welcome to Ahbab Travel & Tours"
 {{% /home-speakers %}}
 
 
-{{% album images="/images/album/2018/Mezab-Group-Award.jpg,/images/album/2018/_25A9386.jpg,/images/album/2018/_25A9671.jpg,/images/album/2018/_25A9334.jpg,/images/album/2018/_25A9282.jpg,/images/album/2018/_25A9612.jpg,/images/album/2018/_25A9452.jpg,/images/album/2018/_25A9628.jpg" %}}
+{{% album images="/images/album/2025/Mezab-Group-Award.jpg,/images/album/2025/New.jpg,/images/album/2025/IMG-20250729-WA0001.jpg,/images/album/2025/new2.jpg,/images/album/2025/IMG-20250729-WA0000.jpg,/images/album/2025/IMG-20250729-WA0005.jpg,/images/album/2025/IMG-20250729-WA0002.jpg,/images/album/2025/IMG-20250729-WA0006.jpg" %}}
 
-### Some pictures of the **Office**.
+### Showcase of our **Pilgrims** and our **Achievements**.
 
 {{% /album  %}}
 
